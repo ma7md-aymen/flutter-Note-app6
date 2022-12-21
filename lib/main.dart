@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:noteapp6/view/homeview.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,6 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark(),
+      home: const HomeView(),
     );
   }
 }
