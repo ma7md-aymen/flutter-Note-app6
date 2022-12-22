@@ -11,7 +11,7 @@ class HomeAppBar extends StatelessWidget {
         Text(
           'Note It!',
           style: TextStyle(
-            fontSize: 30,
+            fontSize: 35,
             fontWeight: FontWeight.bold,
           ),
         ),
