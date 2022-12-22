@@ -8,6 +8,7 @@ class HomeView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       floatingActionButton: FloatingActionButton(
+        backgroundColor: Colors.indigo[300],
         onPressed: () {},
         child: const Icon(Icons.add),
       ),
