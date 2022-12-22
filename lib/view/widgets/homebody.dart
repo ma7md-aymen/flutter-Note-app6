@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:noteapp6/view/widgets/bodylisttile.dart';
 import 'package:noteapp6/view/widgets/homeappbar.dart';
+import 'listvbody.dart';
 
 class HomeBody extends StatelessWidget {
   const HomeBody({Key? key}) : super(key: key);
@@ -14,7 +14,7 @@ class HomeBody extends StatelessWidget {
           SizedBox(height: 50),
           HomeAppBar(),
           SizedBox(height: 25),
-          BodyListTile(),
+          Expanded(child: ListvBuilder()),
         ],
       ),
     );
