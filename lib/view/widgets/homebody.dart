@@ -12,7 +12,7 @@ class HomeBody extends StatelessWidget {
       child: Column(
         children: const [
           SizedBox(height: 50),
-          HomeAppBar(),
+          HomeAppBar(barname: 'Note it!', icone: Icons.search),
           SizedBox(height: 10),
           Expanded(child: ListvBuilder()),
           // FloatingAction()

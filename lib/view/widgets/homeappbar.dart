@@ -2,21 +2,23 @@ import 'package:flutter/material.dart';
 import 'package:noteapp6/view/widgets/searchicon.dart';
 
 class HomeAppBar extends StatelessWidget {
-  const HomeAppBar({super.key});
+  const HomeAppBar({super.key, required this.barname, required this.icone});
 
+  final String barname;
+  final IconData icone;
   @override
   Widget build(BuildContext context) {
     return Row(
-      children: const [
+      children: [
         Text(
-          'Note It!',
-          style: TextStyle(
+          barname,
+          style: const TextStyle(
             fontSize: 35,
             fontWeight: FontWeight.bold,
           ),
         ),
-        Spacer(),
-        SearchIcon(),
+        const Spacer(),
+        SearchIcon(icon: icone),
       ],
     );
   }
