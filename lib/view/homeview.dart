@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:noteapp6/view/widgets/defaultdialog.dart';
 import 'package:noteapp6/view/widgets/homebody.dart';
 

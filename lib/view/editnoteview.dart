@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:noteapp6/view/widgets/textfiledshape.dart';
-
 import 'widgets/homeappbar.dart';
 
 class EditNoteview extends StatelessWidget {
